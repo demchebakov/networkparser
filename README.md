@@ -1,4 +1,4 @@
-# Network Contacts Parser
+# Simple Network Contacts Parser
 Its a simple script which helps you parse telephone numbers with Fist and Last name (If they do exist). 
 Collects data into a database (SQLite) and can output in TXT file.
 Also you can clear data base.
