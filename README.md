@@ -24,7 +24,8 @@ You need install external modules via pip
 	pip install requests
 	pip install bs3
 
-Go to directory where file is located
-Type: python3 parserV2.py
+Go to directory where file is located and type: 
+
+	python3 parserV2.py
 
 Congratulations! Script is working
