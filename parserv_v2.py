@@ -8,7 +8,7 @@ with sqlite3.connect("base.db") as conn:
 
 
 def parse():
-    r = requests.get("https://8be8-45-89-89-202.eu.ngrok.io/")
+    r = requests.get("your link")
     soup = bs4.BeautifulSoup(r.content, "html.parser")
     strings = soup.find_all("p")
     for string in strings:
