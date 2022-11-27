@@ -18,6 +18,12 @@ First of all you need paste your link to HTML page in next string
 
 After that save the file and open command line (cmd, PowerShell, Terminal).
 
+You need install external modules via pip
+
+	pip install sqlite
+	pip install requests
+	pip install bs3
+
 Go to directory where file is located
 Type: python3 parserV2.py
 
