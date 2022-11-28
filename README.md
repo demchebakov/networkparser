@@ -26,6 +26,6 @@ You need install external modules via pip
 
 Go to directory where file is located and type: 
 
-	python3 parserV2.py
+	python3 parser_v2.py
 
 Congratulations! Script is working
