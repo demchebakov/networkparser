@@ -44,25 +44,28 @@ def intofile():
             output.writelines("\n".join(str(line) for line in lines))
         print("Результат збережен в файл: output.txt")
 
+print('''Оберіть функцію парсера: \n
+       [1] Парсити
+       [2] Вивести дані в текстовий файл
+       [3] Очистити базу даних
+       [4] Вихід\n''')
 
-while True:
-    print("[1] - Парсити сайт")
-    print("[2] - Вивести дані з бази в текстовий файл")
-    print("[3] - Видалити дані з БД")
-    print("[4] - Вихід з программи")
+function = input("Оберіть функцію парсера: ")
 
-    choice = input("Оберіть функцію: ")
+match function:
 
-    choice = choice.strip()
-
-    if (choice == "1"):
+    case "1":
         parse()
-    elif (choice == "2"):
+
+    case "2":
         intofile()
-    elif (choice == "3"):
+
+    case "3":
         db_clear()
-    elif (choice == "4"):
-        break
-    else:
-        print("Невірна функція.")
+
+    case "4":
+        exit()
+
+    case _:
+        print("Invalid choosen option")
 
