@@ -12,6 +12,9 @@ For example i prepare test HTML page with test numbers for check script.
 	[4] Exit from script
 
 How to use parser? 
+
+	Need Python 3.10!
+
 First of all you need paste your link to HTML page in next string
 
 	r = requests.get("your link")
