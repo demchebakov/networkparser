@@ -44,7 +44,7 @@ def intofile():
             output.writelines("\n".join(str(line) for line in lines))
         print("Результат збережен в файл: output.txt")
 
-print('''Оберіть функцію парсера: \n
+print('''Доступний функціонал: \n
        [1] Парсити
        [2] Вивести дані в текстовий файл
        [3] Очистити базу даних
